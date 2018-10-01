@@ -113,6 +113,10 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-war-plugin</artifactId>
   <version>3.2.2</version>
+		<configuration>
+			<warSourceDirectory>src/main/webapp</warSourceDirectory>
+			<warName>mvn-customer</warName>
+			<failOnMissingWebXml>false</failOnMissingWebXml>
 	</plugin>
 	</plugins>
 </pluginManagement>
