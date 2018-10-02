@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.luv2code</groupId>
-	<artifactId>spring-security-demo</artifactId>
+	<groupId>org.redik</groupId>
+	<artifactId>mvn-customer</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
@@ -117,6 +117,7 @@
 			<warSourceDirectory>src/main/webapp</warSourceDirectory>
 			<warName>mvn-customer</warName>
 			<failOnMissingWebXml>false</failOnMissingWebXml>
+		</configuration>
 	</plugin>
 	</plugins>
 </pluginManagement>
