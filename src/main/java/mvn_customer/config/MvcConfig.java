@@ -15,10 +15,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("mvn-customer")
+@ComponentScan("mvn_customer")
 @EnableAspectJAutoProxy
 
-public class MvcConfig implements WebMvcConfigurer{
+public class MvcConfig implements WebMvcConfigurer {
 
     @Bean
     public ViewResolver viewResolver() {
