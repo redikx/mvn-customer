@@ -7,8 +7,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>List Of Customers</title>
-
-<link type="text/css" rel = "stylesheet" href = "${pageContext.request.contextPath}/resources/css/style.css"/>
+ <link type="text/css" href="<c:url value='/resources/css/style.css' />" rel="stylesheet" />
 </head>
 <body>
 <div id = "wrapper">

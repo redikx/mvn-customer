@@ -117,6 +117,18 @@
 			<warSourceDirectory>src/main/webapp</warSourceDirectory>
 			<warName>mvn-customer</warName>
 			<failOnMissingWebXml>false</failOnMissingWebXml>
+			
+			<webResources>
+            <resource>
+              <!-- this is relative to the pom.xml directory -->
+              <directory>src/main/webapp/css/</directory>
+              <!-- the list has a default value of ** -->
+              <includes>
+                <include>**/*.css</include>
+              </includes>
+            </resource>
+          </webResources>
+          
 		</configuration>
 	</plugin>
 	</plugins>

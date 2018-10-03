@@ -1,4 +1,5 @@
 <%@ taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -6,8 +7,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Save Customer</title>
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/src/main/webapp/resources/css/style.css"/>
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/src/main/webapp/resources/css/add-customer-style.css"/>
+
+<link type="text/css" href="<c:url value='/resources/css/style.css' />" rel="stylesheet" />
+<link type="text/css" href="<c:url value='/resources/css/add-customer-style.css' />" rel="stylesheet" />
+
 </head>
 
 <body>
