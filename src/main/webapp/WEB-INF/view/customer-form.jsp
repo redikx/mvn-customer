@@ -2,7 +2,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
+<head>
+<link type="text/css" href="<c:url value='/resources/css/add-customer-style.css' />" rel="stylesheet" />
+<title> Add Client </title>
+</head>
 <body>
 <div id="wrapper">
 	<div id = "header">

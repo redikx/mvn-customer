@@ -33,7 +33,9 @@ public class HibernateConfig {
 	dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 	//dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 	//dataSource.setDriverClassName(com.mysql.jdbc.Driver.class.getName());
-	dataSource.setUrl("jdbc:mysql://localhost:3306/mvc_crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
+	//dataSource.setUrl("jdbc:mysql://localhost:3306/mvc_crud?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
+	dataSource.setUrl("jdbc:mysql://192.168.198.130:3306/mvn-customers?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true");
+	
 	dataSource.setUsername("mvc_crud");
 	dataSource.setPassword("radek01");
 	

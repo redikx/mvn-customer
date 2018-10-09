@@ -56,7 +56,10 @@ Search Customer: <input type="text" name="theSearchName" />
  		</c:forEach>
  	
  </table>
- 
+ <br>
+ <form:form action="${pageContext.request.contextPath}/logout" method="POST">
+ <input type="submit" value="Logout" class="add-button"/>
+ </form:form>
  </div>
  </div>
 </body>

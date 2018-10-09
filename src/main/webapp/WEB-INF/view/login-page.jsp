@@ -19,6 +19,10 @@
 <i><b> Sorry, invalid username or password</b></i>
 </c:if>
 
+<c:if test="${param.logout != null }" >
+<i><b> You have been sucesfully logout</b></i>
+</c:if>
+
 <p>
 Username : <input type="text" name="username" />
 </p>
