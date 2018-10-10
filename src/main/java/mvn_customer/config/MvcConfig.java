@@ -69,7 +69,6 @@ public class MvcConfig implements WebMvcConfigurer {
 	logger.info(">>>><<<< jdbc.driver " + env.getProperty("jdbc.driver"));
 	logger.info(">>>><<<< jdbc.url " + env.getProperty("jdbc.url"));
 	logger.info(">>>><<<< jdbc.user " + env.getProperty("jdbc.user"));
-	logger.info(">>>><<<< jdbc.password " + env.getProperty("jdbc.password"));
 
 	
 	    
