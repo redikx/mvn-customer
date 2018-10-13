@@ -4,7 +4,6 @@ import java.beans.PropertyVetoException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-import javax.management.RuntimeErrorException;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
