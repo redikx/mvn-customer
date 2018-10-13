@@ -132,7 +132,7 @@
 			<webResources>
             <resource>
               <!-- this is relative to the pom.xml directory -->
-              <directory>src/main/webapp/css/</directory>
+              <directory>src/main/webapp/</directory>
               <!-- the list has a default value of ** -->
               <includes>
                 <include>**/*.css</include>
