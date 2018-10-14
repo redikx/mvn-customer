@@ -1,0 +1,1 @@
+web: java -cp target/classes:target/classes/mvn-customer/config/* MySpringMvcDispatcherServletInitializer
