@@ -4,7 +4,6 @@ import java.beans.PropertyVetoException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-import javax.management.RuntimeErrorException;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -69,7 +68,6 @@ public class MvcConfig implements WebMvcConfigurer {
 	logger.info(">>>><<<< jdbc.driver " + env.getProperty("jdbc.driver"));
 	logger.info(">>>><<<< jdbc.url " + env.getProperty("jdbc.url"));
 	logger.info(">>>><<<< jdbc.user " + env.getProperty("jdbc.user"));
-	logger.info(">>>><<<< jdbc.password " + env.getProperty("jdbc.password"));
 
 	
 	    
